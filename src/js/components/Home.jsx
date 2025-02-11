@@ -26,11 +26,26 @@ const Home = () => {
 				<div> <Navbar /> </div>
 			</div>	
 
-			<div>
+			<div className="col-3 md-6 col-lg-12"> 
 				<div> <Jumbotrom /> </div>
 			</div>
 
+			<div>
+				<br></br>
+				<br></br>
+				<br></br>
+				<br></br>
+			</div>
+
 			<div className="row">{repeatCards(4)} </div>
+
+			<div>
+				<br></br>
+				<br></br>
+				<br></br>
+				<br></br>
+			</div>
+
 
 			<div>
 				<div> <Footer /> </div>
