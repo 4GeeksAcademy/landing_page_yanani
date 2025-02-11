@@ -3,10 +3,9 @@ import React from "react";
 function Navbar  ()  {
   return (
 
-    <div> NavBar locura </div>,
     <>
         <nav className="navbar navbar-expand-lg bg-body-tertiary">
-          <div className="container-fluid">
+          <div className="container-fluid"style={{ backgroundColor: "orange", color: "white" }}>
             <a className="navbar-brand" href="/">
               Navbar scroll
             </a>
